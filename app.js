@@ -8,7 +8,6 @@ const cadetRoutes = require("./routes/cadetRoutes");
 const planetRoutes = require("./routes/planetRoutes");
 const missionRoutes = require("./routes/missionRoutes");
 const quizRoutes = require("./routes/quizRoutes");
-const chatRoutes = require("./routes/chatRoutes");
 
 
 const equipmentRoutes = require("./routes/equipmentRoutes");
@@ -47,6 +46,5 @@ app.use("/api/cadets", cadetRoutes);
 app.use("/api/planets", planetRoutes);
 app.use("/api/missions", missionRoutes);
 app.use("/api", quizRoutes);
-app.use("/api/chat", chatRoutes);
 
 module.exports = app;
